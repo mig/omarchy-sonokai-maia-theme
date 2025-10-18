@@ -1,0 +1,72 @@
+# Sonokai Maia theme for Alacritty
+#
+# Instructions
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+
+[colors.primary]
+
+background = "#273136"
+foreground = "#e1e2e3"
+bright_foreground = "#ffffff"
+
+[colors.cursor]
+
+text = "#273136"
+cursor = "#e1e2e3"
+
+[colors.vi_mode_cursor]
+
+text = "CellBackground"
+cursor = "CellForeground"
+
+[colors.selection]
+
+text = "CellForeground"
+background = "#3a444b"
+
+[colors.normal]
+
+black = "#1c1e1f"
+red = "#f76c7c"
+green = "#9cd57b"
+yellow = "#e3d367"
+blue = "#78cee9"
+magenta = "#baa0f8"
+cyan = "#78cee9"
+white = "#e1e2e3"
+
+[colors.bright]
+
+black = "#82878b"
+red = "#ff6d7e"
+green = "#a2e57b"
+yellow = "#e3d367"
+blue = "#baa0f8"
+magenta = "#baa0f8"
+cyan = "#7cd5f1"
+white = "#e1e2e3"
+
+[colors.search.matches]
+
+foreground = "#3a444b"
+background = "#9cd57b"
+
+[colors.search.focused_match]
+
+foreground = "#3a444b"
+background = "#f3a96a"
+
+[colors.footer_bar]
+
+background = "#273136"
+foreground = "#e1e2e3"
+
+[colors.hints.start]
+
+foreground = "#273136"
+background = "#e3d367"
+
+[colors.hints.end]
+
+foreground = "#e3d367"
+background = "#273136"
